@@ -25,8 +25,39 @@ print('2.8/3=',2.8/3)
 print('2.8/3.0=',2.8/3.0)
 
 #字符串
-print(r"i'm ok !")
+#字符串 前面 加上r默认不转义
+print(r"i'm ok !\"")
+print(r"\\")
+print('不带有r的换行')
 print('''得到的
 aaaa
 ddddd
-ddddd\'''')
+ddddd\n\\''')
+
+print('带有r的换行:')
+print(r'''得到的
+aaaa
+ddddd
+ddddd\n\\
+''')
+
+a='abcd\aefg'
+print(a)
+print(len(a))
+print(a[4:5])
+print(ord(a[4:5]))
+print(a[5:6])
+
+
+
+
+# 布尔值运算,逻辑运算
+print('True or False:'+str(True or False))
+print('1:'+str(1))
+sep='-'
+print(sep.join('abc'))
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85} 
+print(1 and 4)
+print("0 or 4:"+str(0 or 4))
+print(1 & 4)
+print('%s,%s'('wangge','hello'))
