@@ -3,6 +3,9 @@ import math
 import sys
 
 print(sys.version)
+#none
+print(None)
+
 #整数
 print ("哈哈")
 print("带有r的换行:")
@@ -69,16 +72,7 @@ d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
 print(1 and 4)
 print("0 or 4:"+str(0 or 4))
 print(1 & 4)
-#'%s,%s' %('wangge','hello')
-#格式化字符串输出，
-#常见的占位符有：
-
-#%d	整数
-#%f	浮点数
-#%s	字符串
-#%x	十六进制整数
-print('%s,%s' %('wangge','hello'))
 
 
-#格式化整数和浮点数
-print('%010d-%0001d' % (1,12))
+#常量
+print("PI:",3.14)
